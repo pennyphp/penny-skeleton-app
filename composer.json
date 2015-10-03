@@ -3,7 +3,7 @@
     "type": "project",
     "minimum-stability": "dev",
     "require": {
-        "gianarb/penny": "dev-master",
+        "gianarb/penny": "^0.5",
         "league/plates": "^3.1"
     },
     "require-dev": {
