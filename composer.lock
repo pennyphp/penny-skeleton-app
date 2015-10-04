@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "65ea0c0485243c93f01c0eee25c1dd6f",
+    "hash": "d187d30f8ee3cbc7653c11367b03ae46",
+    "content-hash": "6a91c23860e4a4ec814fd0d3b9789187",
     "packages": [
         {
             "name": "athletic/athletic",
@@ -209,16 +210,16 @@
         },
         {
             "name": "gianarb/penny",
-            "version": "dev-master",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pennyphp/penny.git",
-                "reference": "c1bbd35174abe37ae7be6ca44facf894ee15bdc5"
+                "reference": "6ab27b4c36e9615f02575f726c14c15ae0fa0edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pennyphp/penny/zipball/c1bbd35174abe37ae7be6ca44facf894ee15bdc5",
-                "reference": "c1bbd35174abe37ae7be6ca44facf894ee15bdc5",
+                "url": "https://api.github.com/repos/pennyphp/penny/zipball/6ab27b4c36e9615f02575f726c14c15ae0fa0edb",
+                "reference": "6ab27b4c36e9615f02575f726c14c15ae0fa0edb",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +258,7 @@
                 "middleware",
                 "route"
             ],
-            "time": "2015-10-02 23:12:59"
+            "time": "2015-10-02 23:05:55"
         },
         {
             "name": "kevinlebrun/colors.php",
@@ -1886,9 +1887,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "gianarb/penny": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
