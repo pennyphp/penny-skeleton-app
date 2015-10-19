@@ -14,7 +14,14 @@
   <div class="jumbotron">
     <h2><?php echo get_class($exception) ?></h2>
     <?php foreach ($exception->getTrace() as $single) { ?>
-    <p><?php echo $single['file'] ?> <strong><?php echo $single['line'] ?></strong> -><?php echo $single['function'] ?>
+        <p>
+            <?php if (isset($single['file'])) { ?>
+                <?php echo $single['file'] ?> <strong>
+            <?php } ?>
+            <?php if (isset($single['line'])) { ?>
+                <?php echo $single['line'] ?></strong> -> <?php echo $single['function'] ?>
+            <?php } ?>
+        </p>
     <?php } ?>
   </div>
 
