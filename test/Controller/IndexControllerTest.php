@@ -1,9 +1,9 @@
 <?php
 
-namespace ClassicAppTest\Controller;
+namespace AppTest\Controller;
 
 use PHPUnit_Framework_TestCase;
-use ClassicApp\Controller\IndexController;
+use App\Controller\IndexController;
 use ReflectionProperty;
 
 class IndexControllerTest extends PHPUnit_Framework_TestCase

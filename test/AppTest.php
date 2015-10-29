@@ -1,9 +1,9 @@
 <?php
-namespace ClassicAppTest;
+namespace AppTest;
 
 use Prophecy\Argument;
 use PHPUnit_Framework_TestCase;
-use ClassicApp\EventListener\DispatcherExceptionListener;
+use App\EventListener\DispatcherExceptionListener;
 use Penny\App;
 use Penny\Container;
 use Penny\Config\Loader;
