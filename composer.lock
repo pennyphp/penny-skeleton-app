@@ -5,7 +5,6 @@
         "This file is @generated automatically"
     ],
     "hash": "7daa24bee7784cb7675a7cffa2e0ea99",
-    "content-hash": "4991d86c313557f0a209201f8aa6c09e",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -162,21 +161,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pennyphp/penny.git",
-                "reference": "c1bbd35174abe37ae7be6ca44facf894ee15bdc5"
+                "reference": "10d1298b07d73f9222cd07ad78a38f5efdf48d85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pennyphp/penny/zipball/c1bbd35174abe37ae7be6ca44facf894ee15bdc5",
-                "reference": "c1bbd35174abe37ae7be6ca44facf894ee15bdc5",
+                "url": "https://api.github.com/repos/pennyphp/penny/zipball/10d1298b07d73f9222cd07ad78a38f5efdf48d85",
+                "reference": "10d1298b07d73f9222cd07ad78a38f5efdf48d85",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "^1.2",
                 "nikic/fast-route": "~0.4",
-                "php": ">=5.5",
+                "php": "^5.5|^7.0",
                 "php-di/php-di": "~5.0",
                 "zendframework/zend-diactoros": "~1.0",
-                "zendframework/zend-eventmanager": "~2.5",
+                "zendframework/zend-eventmanager": "~2.5.0",
                 "zendframework/zend-stdlib": "~2.5"
             },
             "require-dev": {
@@ -206,7 +205,7 @@
                 "middleware",
                 "route"
             ],
-            "time": "2015-10-02 23:12:59"
+            "time": "2015-10-29 23:34:28"
         },
         {
             "name": "league/plates",
@@ -541,16 +540,16 @@
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "dev-master",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "a03de810b99b0302059ab744c535d464b8dc4721"
+                "reference": "135af03d07fd048c322259aab6611d2be290475c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/a03de810b99b0302059ab744c535d464b8dc4721",
-                "reference": "a03de810b99b0302059ab744c535d464b8dc4721",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/135af03d07fd048c322259aab6611d2be290475c",
+                "reference": "135af03d07fd048c322259aab6611d2be290475c",
                 "shasum": ""
             },
             "require": {
@@ -558,15 +557,14 @@
                 "zendframework/zend-stdlib": "~2.5"
             },
             "require-dev": {
-                "athletic/athletic": "dev-master",
                 "fabpot/php-cs-fixer": "1.7.*",
                 "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev",
-                    "dev-develop": "3.0-dev"
+                    "dev-master": "2.5-dev",
+                    "dev-develop": "2.6-dev"
                 }
             },
             "autoload": {
@@ -583,81 +581,24 @@
                 "eventmanager",
                 "zf2"
             ],
-            "time": "2015-10-06 11:53:40"
-        },
-        {
-            "name": "zendframework/zend-hydrator",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/zend-hydrator.git",
-                "reference": "f3ed8b833355140350bbed98d8a7b8b66875903f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-hydrator/zipball/f3ed8b833355140350bbed98d8a7b8b66875903f",
-                "reference": "f3ed8b833355140350bbed98d8a7b8b66875903f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5",
-                "zendframework/zend-stdlib": "^2.5.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.0@dev",
-                "zendframework/zend-eventmanager": "^2.5.1",
-                "zendframework/zend-filter": "^2.5.1",
-                "zendframework/zend-inputfilter": "^2.5.1",
-                "zendframework/zend-serializer": "^2.5.1",
-                "zendframework/zend-servicemanager": "^2.5.1"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "^2.5.1, to support aggregate hydrator usage",
-                "zendframework/zend-filter": "^2.5.1, to support naming strategy hydrator usage",
-                "zendframework/zend-serializer": "^2.5.1, to use the SerializableStrategy",
-                "zendframework/zend-servicemanager": "^2.5.1, to support hydrator plugin manager usage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev",
-                    "dev-develop": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Zend\\Hydrator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "homepage": "https://github.com/zendframework/zend-hydrator",
-            "keywords": [
-                "hydrator",
-                "zf2"
-            ],
-            "time": "2015-09-17 14:06:43"
+            "time": "2015-07-16 19:00:49"
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "9ccac573dff16d76ded168ac9708df3b7382ff43"
+                "reference": "aeb109ffffbf9894a973fd1cb365566e4dfeda6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/9ccac573dff16d76ded168ac9708df3b7382ff43",
-                "reference": "9ccac573dff16d76ded168ac9708df3b7382ff43",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/aeb109ffffbf9894a973fd1cb365566e4dfeda6f",
+                "reference": "aeb109ffffbf9894a973fd1cb365566e4dfeda6f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5",
-                "zendframework/zend-hydrator": "~1.0"
+                "php": ">=5.5"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1",
@@ -697,7 +638,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-10-15 15:59:16"
+            "time": "2015-09-25 04:11:15"
         }
     ],
     "packages-dev": [
