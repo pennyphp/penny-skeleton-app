@@ -1,7 +1,7 @@
 /public/vendor
+npm-debug.log
 /bower_components
 /node_modules
 /vendor
-npm_debug.log
 docker-compose.yml
 composer.phar
