@@ -10,7 +10,7 @@
         <title><?php echo $this->e($title) ?></title>
 
         <!-- Bootstrap core CSS -->
-        <link href="/vendor/css/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="/vendor/css/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -33,8 +33,8 @@
 
         </footer>
 
-        <script type="text/javascript" src="/vendor/js/bower_components/jquery/dist/jquery.js"></script><!-- jquery -->
-        <script type="text/javascript" src="/vendor/js/bower_components/bootstrap/dist/js/bootstrap.js"></script><!-- Bootstrap Js -->
+        <script type="text/javascript" src="/vendor/js/node_modules/jquery/dist/jquery.js"></script><!-- jquery -->
+        <script type="text/javascript" src="/vendor/js/node_modules/bootstrap/dist/js/bootstrap.js"></script><!-- Bootstrap Js -->
         <?=$this->section('inline-script')?>
 
     </body>

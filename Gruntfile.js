@@ -12,8 +12,8 @@ module.exports = function ( grunt ) {
         files: [
           {
             src: [
-             'bower_components/jquery/dist/jquery.js',
-             'bower_components/bootstrap/dist/js/bootstrap.js'
+             'node_modules/jquery/dist/jquery.js',
+             'node_modules/bootstrap/dist/js/bootstrap.js'
             ],
             dest: 'public/vendor/js/',
             cwd: '.',
@@ -33,7 +33,7 @@ module.exports = function ( grunt ) {
         files: [
           {
             src: [
-             'bower_components/bootstrap/dist/css/bootstrap.css'
+             'node_modules/bootstrap/dist/css/bootstrap.css'
             ],
             dest: './public/vendor/css/',
             cwd: '.',
