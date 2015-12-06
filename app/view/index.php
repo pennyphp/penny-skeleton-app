@@ -28,10 +28,10 @@
       <p><a target="_blank" href"="https://github.com/pennyphp/penny-classic-app">This skeleton application</a> is an example of penny implementations. This is a basic example to build "classic" app with an HTML views and other things</p>
 
       <h4 style="color:green">Dependencies</h4>
-      <p>THIS Penny Skeleton builds integration between Penny and <a target="_blank" href"="http://github.com/thephpleague/plates">thephpleague/plates</a> powerfull native php template system</p>
+      <p>This Penny Skeleton builds integration between Penny and <a target="_blank" href"="http://github.com/thephpleague/plates">thephpleague/plates</a> powerfull native php template system</p>
 
       <h4 style="color:green">Easy and Free</h4>
-      <p>This project is open source and it's born because in this world exist a lot of beautiful OSS projects and a good developer must be able to choose her best tools!</p>
+      <p>This project is open source and it's born because in this world exist a lot of beautiful OSS projects and good developers must be able to choose their best tools!</p>
     </div>
   </div>
 </div>
