@@ -31,7 +31,7 @@
       <p>This Penny Skeleton builds integration between Penny and <a target="_blank" href"="http://github.com/thephpleague/plates">thephpleague/plates</a> powerfull native php template system</p>
 
       <h4 style="color:green">Easy and Free</h4>
-      <p>This project is open source and it's born because in this world exist a lot of beautiful OSS projects and a good developers must be able to choose their best tools!</p>
+      <p>This project is open source and it's born because in this world exist a lot of beautiful OSS projects and good developers must be able to choose their best tools!</p>
     </div>
   </div>
 </div>
