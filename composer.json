@@ -4,7 +4,8 @@
     "minimum-stability": "dev",
     "require": {
         "gianarb/penny": "dev-master",
-        "league/plates": "^3.1"
+        "league/plates": "^3.1",
+        "penny/excp-handler": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0"

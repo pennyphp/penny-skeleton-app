@@ -1,14 +1,22 @@
 <?php
+use Penny\ExcpHandler\EventListener\WhoopsListener;
+
 return [
     'event_manager' => \DI\decorate(function($eventManager, $container) {
-        $eventManager->attach("dispatch_error", [$container->get(\App\EventListener\DispatcherExceptionListener::class), "onError"]);
-        $eventManager->attach("*_error", [$container->get(\App\EventListener\ExceptionListener::class), "onError"]);
+        $eventManager->attach("dispatch_error", [$container->get(WhoopsListener::class), "onError"]);
+        $eventManager->attach("*_error", [$container->get(WhoopsListener::class), "onError"]);
+        
+        // this is usage if we want to use templated error handler
+//       \App\EventListener\ExceptionListener::class => \DI\object(\App\EventListener\ExceptionListener::class)
+//                ->constructor(\DI\get("template")),
+//       \App\EventListener\DispatcherExceptionListener::class => \DI\object(\App\EventListener\DispatcherExceptionListener::class)
+//               ->constructor(\DI\get("template")),
+
         return $eventManager;
     }),
-    \App\EventListener\ExceptionListener::class => \DI\object(\App\EventListener\ExceptionListener::class)
-        ->constructor(\DI\get("template")),
-    \App\EventListener\DispatcherExceptionListener::class => \DI\object(\App\EventListener\DispatcherExceptionListener::class)
-        ->constructor(\DI\get("template")),
+
+    WhoopsListener::class => \DI\object(WhoopsListener::class),
+
     'template' => \DI\object(\League\Plates\Engine::class)->constructor('./app/view/'),
     'router' => function () {
         return \FastRoute\simpleDispatcher(function (\FastRoute\RouteCollector $r) {
