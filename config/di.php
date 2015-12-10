@@ -16,6 +16,10 @@ return [
     }),
 
     WhoopsListener::class => \DI\object(WhoopsListener::class),
+    \App\EventListener\ExceptionListener::class => \DI\object(\App\EventListener\ExceptionListener::class)
+        ->constructor(\DI\get("template")),
+    \App\EventListener\DispatcherExceptionListener::class => \DI\object(\App\EventListener\DispatcherExceptionListener::class)
+        ->constructor(\DI\get("template")),
 
     'template' => \DI\object(\League\Plates\Engine::class)->constructor('./app/view/'),
     'router' => function () {
