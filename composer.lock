@@ -368,12 +368,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pennyphp/excp-handler.git",
-                "reference": "d2930137f7babf0beb51923dcafa10ac04151281"
+                "reference": "2ef548ac6716427dcd07a07f49d5ccdb819d0349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pennyphp/excp-handler/zipball/d2930137f7babf0beb51923dcafa10ac04151281",
-                "reference": "d2930137f7babf0beb51923dcafa10ac04151281",
+                "url": "https://api.github.com/repos/pennyphp/excp-handler/zipball/2ef548ac6716427dcd07a07f49d5ccdb819d0349",
+                "reference": "2ef548ac6716427dcd07a07f49d5ccdb819d0349",
                 "shasum": ""
             },
             "require": {
@@ -399,7 +399,7 @@
                     "email": "gianarb92@gmail.com"
                 }
             ],
-            "time": "2015-11-11 08:25:16"
+            "time": "2015-12-10 12:30:29"
         },
         {
             "name": "php-di/invoker",
