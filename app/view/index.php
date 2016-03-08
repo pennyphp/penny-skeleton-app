@@ -7,8 +7,8 @@
 
   <div class="jumbotron">
     <h1>Penny Classic Application</h1>
-    <p class="lead"><a target="_blank" href"="https://gituhb.com/pennyphp/penny">Penny</a> is a concentration of experience to build flexible and modern PHP application</p>
-    <p><a class="btn btn-lg btn-success" target="_blank" href="https://gituhb.com/pennyphp/penny-classic-app" role="button">Try me!</a></p>
+    <p class="lead"><a target="_blank" href"="https://github.com/pennyphp/penny">Penny</a> is a concentration of experience to build flexible and modern PHP application</p>
+    <p><a class="btn btn-lg btn-success" target="_blank" href="https://github.com/pennyphp/penny-classic-app" role="button">Try me!</a></p>
   </div>
 
   <div class="row marketing">
